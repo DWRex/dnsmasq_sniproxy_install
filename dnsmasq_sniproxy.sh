@@ -471,7 +471,7 @@ only_dnsmasq(){
 }
 
 only_sniproxy(){
-    ports="80 443"
+    ports="8180 8443"
     hello
     ready_install
     install_sniproxy
