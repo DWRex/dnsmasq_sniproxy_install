@@ -422,7 +422,7 @@ help(){
 }
 
 install_all(){
-    ports="53 8180 8443"
+    ports="53 80 443"
     publicip=$(get_ip)
     hello
     ready_install
@@ -471,7 +471,7 @@ only_dnsmasq(){
 }
 
 only_sniproxy(){
-    ports="8180 8443"
+    ports="80 443"
     hello
     ready_install
     install_sniproxy
