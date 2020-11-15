@@ -17,8 +17,8 @@ level3.net
 llnwd.net
 edgecastcdn.net
 cloudfront.net
-netflix.com
-netflix.net
+netflix.com:443
+netflix.net:443
 nflximg.net
 nflxvideo.net
 nflxso.net
