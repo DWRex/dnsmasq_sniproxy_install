@@ -422,7 +422,7 @@ help(){
 }
 
 install_all(){
-    ports="53 80 443"
+    ports="53 8180 8443"
     publicip=$(get_ip)
     hello
     ready_install
