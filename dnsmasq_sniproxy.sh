@@ -274,7 +274,7 @@ install_dnsmasq(){
 }
 
 install_sniproxy(){
-    for aport in 80 443; do
+    for aport in 8180 8443; do
         netstat -a -n -p | grep LISTEN | grep -P "\d+\.\d+\.\d+\.\d+:${aport}\s+" > /dev/null && echo -e "[${red}Error${plain}] required port ${aport} already in use\n" && exit 1
     done
     install_dependencies
