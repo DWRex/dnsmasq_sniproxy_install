@@ -81,5 +81,5 @@ optus.com.au
 optusnet.com.au
 gamer.com.tw
 bahamut.com.tw
-hinet.net
-twitter.com
+hinet.net:443
+twitter.com:443
